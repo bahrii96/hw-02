@@ -1,0 +1,27 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+.body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+.slogan .text {
+  color: var(--title-text-color);
+}
+.staff .profession {
+  color: var(--title-text-color);
+}
+.site {
+  color: var(--primary-text-color);
+}
+.site:hover,
+.site:focus {
+  color: var(--accent-color);
+}
+.button {
+  color: var(--primary-text-color);
+  background: var(--primary-bg-color);
+}
