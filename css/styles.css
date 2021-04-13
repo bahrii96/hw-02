@@ -7,6 +7,10 @@
 .body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+.logo {
+  font-family: Raleway;
 }
 .slogan .text {
   color: var(--title-text-color);
