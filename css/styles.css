@@ -4,13 +4,23 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
 }
-.body {
+body {
   background-color: #ffffff;
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.06em;
 }
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
 }
 .slogan .text {
   color: var(--title-text-color);
@@ -20,12 +30,71 @@
 }
 .site {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site:hover,
 .site:focus {
   color: var(--accent-color);
 }
 .button {
-  color: var(--primary-text-color);
-  background: var(--primary-bg-color);
+  color: var(--primary-bg-color);
+  background: var(--accent-color);
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.button {
+  font-family: inherit;
+}
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+  text-align: center;
+}
+.slogan .hero_2 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.service .hero {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.service .hero_2 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.staff .hero {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.staff .profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.clients {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
