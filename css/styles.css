@@ -4,31 +4,29 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
 }
+
 body {
   background-color: #ffffff;
+
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
-
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
 
-  letter-spacing: 0.03em;
-
   color: #2196f3;
 }
-.slogan .text {
-  color: var(--title-text-color);
+.nav .accent {
+  color: var(--primary-text-color);
 }
-.staff .profession {
-  color: var(--title-text-color);
-}
-.site {
+
+.link {
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -36,65 +34,100 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site:hover,
-.site:focus {
+.nav .link:hover,
+.nav .link:focus {
   color: var(--accent-color);
 }
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
 .button {
   color: var(--primary-bg-color);
   background: var(--accent-color);
 
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
 }
-.button {
-  font-family: inherit;
-}
-.hero {
+
+.hero .title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36px;
+  line-height: 1.36;
   text-align: center;
 }
-.slogan .hero_2 {
+
+.features .text {
+  color: var(--title-text-color);
+}
+
+.features .title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
 }
-.service .hero {
+.service .service-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
-.service .hero_2 {
+.service .title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
-.staff .hero {
+.team .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
-.staff .profession {
+
+.team.activity {
+  color: var(--title-text-color);
+
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
-.clients {
+
+.clients .title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.15;
   text-align: center;
-  letter-spacing: 0.03em;
+}
+.filter:hover,
+.filter:focus {
+  color: var(--accent-color);
+}
+.porfolio .text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1, 75;
+  color: #eb1313;
+}
+.porfolio .title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.porfolio .service {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
 }
