@@ -118,21 +118,21 @@ body {
 .filter:focus {
   color: var(--accent-color);
 }
-.porfolio .text {
+.portfolio .text {
   font-weight: normal;
   font-size: 18px;
   line-height: 1, 75;
   color: #eb1313;
   text-decoration: none;
 }
-.porfolio .title {
+.portfolio .title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   text-decoration: none;
 }
-.porfolio .service {
+.portfolio .service {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
