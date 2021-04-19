@@ -13,7 +13,17 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
 }
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 2px solid tomato;
+}
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -53,33 +63,69 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-decoration: none;
+  padding: 10px 32px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.filter {color: var(--primary-text-color);
+  background: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px solid transparent;
+
 }
 
+.filter:hover,
+.filter:focus {
+  color: var(--primary-bg-color);
+  background: var(--accent-color);
+  border: 1px solid transparent;
+}
+
+
+.hero {
+  text-align: center;
+}
 .hero .title {
-  font-weight: 900;
+  margin-top: 0;
+font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
-  text-transform: uppercase;
-}
 
+  text-transform: uppercase;
+  margin-bottom: 40px;
+
+  background-color: #eb1313;
+}
+ 
+}
 .features .text {
+  margin-bottom: 0;
+  margin-top: 10px;
   color: var(--title-text-color);
+  background-color: #eb1313;
 }
 
 .features .title {
+  margin-bottom: 0;
+  margin-top: 30px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
+ 
 .service .service-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 .service .title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -90,12 +136,16 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .team .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+margin-top: 30px;
+margin-bottom: 0;
 }
 
 .team.activity {
@@ -104,18 +154,25 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
-
+.team .list{
+margin-top: 16px;
+margin-bottom: 0;
+}
 .clients .title {
+  margin-top: 0;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.15;
   text-align: center;
 }
-.filter:hover,
-.filter:focus {
-  color: var(--accent-color);
+.clients .link {
+margin: 0;
 }
+
 .portfolio .text {
   font-weight: normal;
   font-size: 18px;
